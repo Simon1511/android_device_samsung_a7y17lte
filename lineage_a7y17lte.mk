@@ -39,18 +39,3 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A720F
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-
-# Fingerprint
-BUILD_FINGERPRINT := "samsung/a7y17ltexx/a7y17lte:8.0.0/R16NW/A720FXXU9CSK3:user/release-keys"
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="a7y17ltexx-user 8.0.0 R16NW A720FXXU9CSK3 release-keys" \
-    TARGET_DEVICE="a7y17lte"
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=$(BUILD_FINGERPRINT) \
-    ro.bootimage.build.fingerprint=$(BUILD_FINGERPRINT) \
-    ro.vendor.build.fingerprint=$(BUILD_FINGERPRINT)
-
-# Vendor security patch
-VENDOR_SECURITY_PATCH := 2019-12-01
