@@ -63,5 +63,5 @@ TW_EXCLUDE_TWRPAPP := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Include
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/a7y17lte/include
+TARGET_SPECIFIC_HEADER_PATH := device/samsung/a7y17lte/dtbhtool/include
 
